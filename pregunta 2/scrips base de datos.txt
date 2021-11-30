@@ -1,0 +1,70 @@
+codFlujo  codProceso  codprocsiguiente  tipo   rol     formulario
+F1			P1				P2			 I	  Frente   averigua.php
+F1			P2				P3			 P	  Frente   presentarsobr.php
+F1			P3							 C	  comite   verifica.php
+F1			P4				p5			 P    comite   observado.php
+F1			P5				null	     S    frente   notificarobs.php
+F1			P6				p7			 P    comite   revisardoc.php
+F1			P7				p8			 P    comite   habilitafrente.php
+F1          p8 				null         F	  frente   verificarinsc.php 
+
+codproceso 		si		no 
+p3				p6 		p4
+
+create table flujoproceso(
+flujo varchar(3),
+proceso varchar(3),
+tipo varchar(1),
+rol varchar (15),
+procesosiguiente varchar (3),
+formulario varchar(20)
+)
+
+create table flujocondicionante(
+proceso varchar(3),
+Si varchar(3),
+No varchar (3)
+)
+
+insert into flujoproceso values('F1','P1','I','Frente','P2','averigua');
+insert into flujoproceso values('F1','P2','P','Frente','P3','presentarsobr');
+insert into flujoproceso values('F1','P3','C','Comite',null,'verifica');
+insert into flujoproceso values('F1','P4','P','Comite', 'P5','observado');
+insert into flujoproceso values('F1','P5','S','Frente',null,'notificarobs');
+insert into flujoproceso values('F1','P6','P','Comite','P7','revisardoc');
+insert into flujoproceso values('F1','P7','P','Comite','P8','habilitafrente');
+insert into flujoproceso values('F1','P8','F','Frente',null,'verificarinsc');
+
+
+insert into flujocondicionante values('P3','P6','P4');
+
+create table seguimiento (
+nroSobre integer,
+usuario varchar (10),
+flujo varchar (3),
+proceso varchar(3),
+fechainicio datetime,
+fechafin datetime
+)
+
+insert into seguimiento values("100","Miranda","F1","P1","2021/10/12 10:00","2021/09/13 12:00");
+insert into seguimiento values("100","Miranda","F1","P2","2021/10/13 12:00",null);
+insert into seguimiento values("101","Raul","F1","P3","2021/10/13 10:00","2021/09/13 12:00");
+insert into seguimiento values("101","Raul","F1","P4","2021/10/13 12:00",null);
+insert into seguimiento values("102","Rocio","F1","P5","2021/10/13 09:00","2021/09/13 10:00");
+insert into seguimiento values("100","Moises","F1","P1","2021/10/12 08:00","2021/09/13 10:00");
+insert into seguimiento values("100","Moises","F1","P2","2021/10/13 12:00",null);
+insert into seguimiento values("101","German","F1","P1","2021/10/13 09:00","2021/09/13 11:00");
+insert into seguimiento values("101","German","F1","P2","2021/10/13 10:00",null);
+insert into seguimiento values("101","Moises","F1","P6","2021/10/14 12:00","2021/09/14 14:00");
+create table usuarios(
+usuario varchar(10),
+contrasenia varchar(10),
+rol varchar(10)
+)
+
+insert into usuarios values("Miranda","123456","F");
+insert into usuarios values("Raul","123456","F");
+insert into usuarios values("Rocio","123456","C");
+insert into usuarios values("Moises","123456","F");
+insert into usuarios values("German","123456","F");
