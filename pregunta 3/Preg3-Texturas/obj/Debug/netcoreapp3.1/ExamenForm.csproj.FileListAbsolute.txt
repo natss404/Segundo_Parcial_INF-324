@@ -1,0 +1,17 @@
+C:\Users\voyhe\source\repos\ExamenForm-master\bin\Debug\netcoreapp3.1\ExamenForm.exe
+C:\Users\voyhe\source\repos\ExamenForm-master\bin\Debug\netcoreapp3.1\ExamenForm.deps.json
+C:\Users\voyhe\source\repos\ExamenForm-master\bin\Debug\netcoreapp3.1\ExamenForm.runtimeconfig.json
+C:\Users\voyhe\source\repos\ExamenForm-master\bin\Debug\netcoreapp3.1\ExamenForm.runtimeconfig.dev.json
+C:\Users\voyhe\source\repos\ExamenForm-master\bin\Debug\netcoreapp3.1\ExamenForm.dll
+C:\Users\voyhe\source\repos\ExamenForm-master\bin\Debug\netcoreapp3.1\ExamenForm.pdb
+C:\Users\voyhe\source\repos\ExamenForm-master\obj\Debug\netcoreapp3.1\ExamenForm.csproj.AssemblyReference.cache
+C:\Users\voyhe\source\repos\ExamenForm-master\obj\Debug\netcoreapp3.1\ExamenForm.Form1.resources
+C:\Users\voyhe\source\repos\ExamenForm-master\obj\Debug\netcoreapp3.1\ExamenForm.csproj.GenerateResource.cache
+C:\Users\voyhe\source\repos\ExamenForm-master\obj\Debug\netcoreapp3.1\ExamenForm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\voyhe\source\repos\ExamenForm-master\obj\Debug\netcoreapp3.1\ExamenForm.AssemblyInfoInputs.cache
+C:\Users\voyhe\source\repos\ExamenForm-master\obj\Debug\netcoreapp3.1\ExamenForm.AssemblyInfo.cs
+C:\Users\voyhe\source\repos\ExamenForm-master\obj\Debug\netcoreapp3.1\ExamenForm.csproj.CoreCompileInputs.cache
+C:\Users\voyhe\source\repos\ExamenForm-master\obj\Debug\netcoreapp3.1\ExamenForm.dll
+C:\Users\voyhe\source\repos\ExamenForm-master\obj\Debug\netcoreapp3.1\ExamenForm.pdb
+C:\Users\voyhe\source\repos\ExamenForm-master\obj\Debug\netcoreapp3.1\ExamenForm.genruntimeconfig.cache
+C:\Users\voyhe\source\repos\ExamenForm-master\obj\Debug\netcoreapp3.1\ExamenForm.Properties.Resources.resources
